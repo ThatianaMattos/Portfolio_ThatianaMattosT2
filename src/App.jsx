@@ -1,24 +1,19 @@
-import React from "react"
-import {createGlobalStyle} from "styled-components"
-import Navegacao from "./Components/Navegacao.jsx"
+import React from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Inicio from './Components/Inicio.jsx';
+import Sobre from './components/Sobre';
+import Projetos from './components/Projetos';
 
-const GlobalStyle = createGlobalStyle`
-  *{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
-    body{
-  background-color: #000000;
+function App() {
+  return (
+    <Router>
+      <Switch>
+        <Route path="/" exact component={Inicio} />
+        <Route path="/sobre" component={Sobre} />
+        <Route path="/projetos" component={Projetos} />
+      </Switch>
+    </Router>
+  );
 }
-  }
-`
 
-function App(){
-  return(
-    <>
-    <GlobalStyle/>
-    <Navegacao/>
-    </>
-  )
-}
-export default App
+export default App;

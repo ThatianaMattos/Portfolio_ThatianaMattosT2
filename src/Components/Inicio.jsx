@@ -1,8 +1,8 @@
 import React from "react"
 import Perfil from "./imagensPortfolio/perfil.png"
 import Instagram from "./imagensPortfolio/instagram.png"
-import Facebook from "./imagensPortfolio/facebook.png"
-import Linkedin from "./imagensPortfolio/linkedin.png"
+import Facebook from "./imagensPortfolio/"
+import Linkedin from "./imagensPorfolio/linkedin.png"
 import * as S from "./Style.jsx"
 
 function Inicio() {
