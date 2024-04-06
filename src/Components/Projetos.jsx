@@ -5,7 +5,7 @@ import Cruzeiro from "./imagensPortfolio/cruzeiro.png"
 import Fogo from "./imagensPortfolio/fogo.png"
 import Patrocinadores from "./imagensPortfolio/patrocinadores.png"
 import * as S from "./Style"
-import Carousel from "nuka-carousel";
+import {Carousel} from "nuka-carousel";
 
 
 

@@ -9,11 +9,12 @@ function Inicio() {
     return (
 
         <S.SectionInicio>
-            <img src={Perfil.png} alt="Foto do perfil" />
+            <img src={Perfil} alt="Foto do perfil" />
+
 
             <S.ContainerDivs> 
                 <S.BoxInicio>
-                    <h2> Olá! Sou a Thatiana Mattos,</h2>
+                    <h2> Olá! Sou  Thatiana Mattos,</h2>
                     <h2>Venham conhecer o meu portfólio.</h2>
                 </S.BoxInicio>
                 <S.BoxInicio2>

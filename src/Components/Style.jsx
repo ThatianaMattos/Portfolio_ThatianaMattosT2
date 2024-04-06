@@ -50,7 +50,9 @@ align-items: center;
 background-color: black;
 
 img{
-    border-radius: 50% ;
+    border-radius: 100% ;
+    width: 400px;
+    height: 400px;
 }
 
 h2{
@@ -138,7 +140,7 @@ div{
 }
 
 img{
-    width: ;
+    width: 100px;
     height: 8vh;
 }
 
