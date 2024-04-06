@@ -1,8 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Inicio from './Components/Inicio.jsx';
-import Sobre from './components/Sobre';
-import Projetos from './components/Projetos';
+import Inicio from './Components/Inicio';
+import Sobre from './Components/Sobre';
+import Projetos from './Components/Projetos';
 
 function App() {
   return (
